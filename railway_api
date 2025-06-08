@@ -1,0 +1,10 @@
+from flask import Flask, request
+
+app = Flask(__name__)
+
+@app.route("/api/upload", methods=["POST"])
+def upload():
+    data = request.json
+    print("Data received from LabVIEW:", data)
+    # Save to DB or process
+    return {"status": "ok"}, 200
