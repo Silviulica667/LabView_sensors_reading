@@ -4,7 +4,7 @@ import os
 
 # Path to file written by LabVIEW
 FILE_PATH = "C:/SensorData/latest_data.csv"
-RAILWAY_API = "https://your-app.up.railway.app/api/upload"
+RAILWAY_API = ""
 
 last_sent = ""
 
